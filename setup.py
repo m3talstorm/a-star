@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='a-star',
+    name='pyastar',
     version='0.1',
     url='https://github.com/m3talstorm/a-star',
     download_url='https://github.com/m3talstorm/a-star',
