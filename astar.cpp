@@ -90,7 +90,7 @@ extern "C" bool astar(
         if (new_cost < costs[nbrs[i]]) {
           // estimate the cost to the goal based on legal moves
           if (diag_ok) {
-            heuristic_cost = linf_norm(nbrs[i] / w, nbrs[i] % w,
+            heuristic_cost = l1_norm(nbrs[i] / w, nbrs[i] % w,
                                        goal    / w, goal    % w);
           }
           else {
